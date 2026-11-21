@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.atas {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: rgba(0,0,0);
+    padding: 5px 60px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.navbar a:hover {
+    color: aqua;
+}
+
+.beranda {
+    width: 100%;
+    height: 750px;
+
+    background-image: url(utama.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    border-bottom: 5px solid black;
+    margin: 0 auto;
+}
+
+.awalan {
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    font-size: 25px;
+}
+
+.tombol {
+    background-color: rgb(77, 144, 170);
+    width: fit-content;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover .tombol {
+    box-shadow: 0 10px 10px red;
+}
+
+.tombol1 {
+    color: black;
+}
+
+.span-1 {
+    color: rgb(0, 225, 255);
+}
+
+.span-2 {
+    color: rgb(255, 153, 0);
+}
+
+.tentang {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr 2fr);
+    gap: 70px;
+    border-bottom: 5px solid black;
+    padding: 20px;
+    width: 100%;
+}
+
+.teks-about {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: grey;
+    border-radius: 30px;
+    margin: 20px;
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    padding: 20px
+}
+
+.gambar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-olahraga {
+    border-radius: 100px;
+}
+    
+
+.gambar img {
+    width: 500px;
+    height: auto;
+}
+
+.services {
+    padding: 100px 0;
+    color: #f8f6f5;
+}
+
+    .kotak {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .card {
+        background-color: #077cad;
+        padding: 30px;
+        border-radius: 8px;
+        text-align: center;
+        border: 4px solid black;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        box-shadow: 0 10px 20px black;
+    }
+
+    .card h3 {
+        text-align: center;
+        color: black;
+        margin-bottom: 15px;
+        font-weight: bold;
+        background-color: transparent;
+    }
+
+    .card p {
+        font-size: 20px;
+        color: black;
+        background-color: transparent;
+        text-align: justify;
+    }
+
+    .title {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: larger;
+        background-color: rgba(0,0,0,0.7);
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        border-bottom: 5px solid black;
+        padding-bottom: 20px;
+    }
+
+.footer {
+    display: block;
+    width: 100%;
+    background-color: rgb(255, 145, 0);
+    color: black;
+    padding: 40px 0 20px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    gap: 50px;
+    padding-bottom: 30px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 80px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.contact-item a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.contact-item a:hover{
+    color: white;
+}
+
+.contact-item img {
+    width: 80px;
+    margin: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.social-media a {
+    width: 70px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-media img {
+    width: 70px;
+    height: auto;
+    object-fit: contain;
+}
+
+.social-media a:hover {
+    box-shadow: 0 10px 20px blue;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.copyright {
+    width: 90%;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    border-top: 2px solid black;
+    margin: 0 auto;
+}
+
+.penutup {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#about {
+    scroll-margin-top: 55px;
+}
+
+#olahraga {
+    scroll-margin-top: 85px;
+}

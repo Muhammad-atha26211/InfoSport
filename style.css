@@ -61,7 +61,7 @@ body {
 .awalan {
     align-items: center;
     text-align: center;
-    width: 80%;
+    width: 100%;
     font-size: 25px;
 }
 
@@ -270,7 +270,7 @@ a:hover .tombol {
 }
 
 .copyright {
-    width: 90%;
+    width: 100%;
     text-align: center;
     padding: 50px 0;
     font-size: 20px;

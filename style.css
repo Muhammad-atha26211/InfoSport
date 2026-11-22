@@ -374,6 +374,7 @@ a:hover .tombol {
     .card img {
         width: 100% !important;
         height: 100px !important;
+        object-fit: cover;
     }
     
     .card p {

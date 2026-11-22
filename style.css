@@ -162,6 +162,11 @@ a:hover .tombol {
         box-shadow: 0 10px 20px black;
     }
 
+    .card img {
+        max-width: 100%;
+        object-fit: cover;
+    }
+
     .card h3 {
         text-align: center;
         color: black;

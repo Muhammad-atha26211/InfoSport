@@ -133,7 +133,7 @@ a:hover .tombol {
     
 
 .gambar img {
-    width: 400px;
+    width: 350px;
     height: auto;
 }
 
@@ -295,3 +295,110 @@ a:hover .tombol {
 #olahraga {
     scroll-margin-top: 85px;
 }
+
+
+
+
+
+@media (max-width: 600px) {
+
+    .atas {
+        padding: 5px 10px;
+        height: 50px;
+    }
+
+    .logo a {
+        font-size: 18px;
+    }
+
+    .navbar {
+        gap: 8px;
+    }
+
+    .navbar a {
+        font-size: 13px;
+    }
+
+    .beranda {
+        height: 500px;
+        padding: 15px;
+    }
+
+    .awalan {
+        font-size: 18px;
+    }
+
+    .tombol {
+        font-size: 14px;
+    }
+
+    .tentang {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .teks-about {
+        width: 100%;
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .gambar {
+        justify-content: center;
+    }
+
+    .gambar img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .services {
+        padding: 40px 0;
+    }
+
+    .kotak {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+
+    .information {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .contact {
+        padding-left: 10px;
+    }
+
+    .contact-item {
+        font-size: 18px;
+    }
+
+    .contact-item img {
+        width: 50px;
+    }
+
+    .social-media {
+        gap: 20px;
+    }
+
+    .social-media img {
+        width: 50px;
+    }
+
+    .copyright {
+        font-size: 16px;
+        padding: 25px 0;
+    }
+    
+    }
+

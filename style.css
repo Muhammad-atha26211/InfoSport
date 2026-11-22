@@ -371,6 +371,11 @@ a:hover .tombol {
         padding: 15px;
     }
 
+    .card img {
+        width: 100% !important;
+        height: 100px !important;
+    }
+    
     .card p {
         font-size: 16px;
     }
